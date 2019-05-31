@@ -27,8 +27,11 @@ footer {
   border-top: 8px solid #f8df1f;
 }
 button {
+  text-transform: uppercase;
   background-color: #f8df1f;
   font-size: 18px;
+  border-radius: 15px;
+  font-weight: 500;
 }
 .top,
 .bottom {
