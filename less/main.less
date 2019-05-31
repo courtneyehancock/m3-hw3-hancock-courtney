@@ -1,7 +1,19 @@
 @import "variables";
 
 //mixins
-
+#buttons() {
+  .style {
+    background-color: @yellow-primary;
+    border-radius: 8px;
+    border: none;
+    padding: 1.5%;
+  }
+  .text {
+    text-transform: uppercase;
+    font-size: @size-primary;
+    font-weight: 500;
+  }
+}
 // Main Body Styles
 nav {
   font-family: @font-primary;
@@ -34,12 +46,9 @@ footer {
   border-top: 8px solid @yellow-primary;
 }
 
-button {
-  text-transform: uppercase;
-  background-color: @yellow-primary;
-  font-size: @size-primary;
-  border-radius: 15px;
-  font-weight: 500;
+.button {
+  #buttons.style();
+  #buttons.text();
 }
 
 .top,
@@ -54,7 +63,7 @@ button {
 // Header styles
 body {
   header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner-bg.png");
+    background-image: linear-gradient(rgba(59, 56, 56, 0.7), rgba(59, 56, 56, 0.7)), url("../img/banner-bg.png");
     //opacity: .7;
     background-repeat: no-repeat;
     background-size: cover;

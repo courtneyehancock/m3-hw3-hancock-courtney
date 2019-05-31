@@ -26,11 +26,13 @@ footer {
   background-color: #080801;
   border-top: 8px solid #f8df1f;
 }
-button {
-  text-transform: uppercase;
+.button {
   background-color: #f8df1f;
+  border-radius: 8px;
+  border: none;
+  padding: 1.5%;
+  text-transform: uppercase;
   font-size: 18px;
-  border-radius: 15px;
   font-weight: 500;
 }
 .top,
@@ -41,8 +43,8 @@ button {
   background-color: #f3f3f3;
 }
 body header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/banner-bg.png");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner-bg.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(59, 56, 56, 0.7)), to(rgba(59, 56, 56, 0.7))), url("../img/banner-bg.png");
+  background-image: linear-gradient(rgba(59, 56, 56, 0.7), rgba(59, 56, 56, 0.7)), url("../img/banner-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
