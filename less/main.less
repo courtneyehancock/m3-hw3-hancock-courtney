@@ -4,21 +4,58 @@
 
 // Main Body Styles
 nav {
-    height: 100px;
-    background-color: @yellow-primary;
+  font-family: @font-primary;
+  height: 100px;
+  background-color: @yellow-primary;
+  padding-left: 5%;
+  padding-top: 2.5%;
+  li {
+    padding-right: 2%;
+    font-size: @size-primary;
+  }
+    span {
+      color: @red-primary;
+      text-transform: uppercase;
+    }
 }
 
 h2 {
   text-transform: uppercase;
   span {
+    font-family: @font-primary;
+    font-size: @size-heading;
     color: @red-primary;
+    font-weight: 500;
   }
 }
 
 footer {
   background-color: @black-primary;
+  border-top: 8px solid @yellow-primary;
 }
+
+button {
+  background-color: @yellow-primary;
+  font-size: @size-primary;
+}
+
+.top,
+.bottom {
+  padding: 5% 0;
+}
+
+.bottom {
+  background-color: @white-primary;
+}
+
 // Header styles
-header {
+body {
+  header {
     background-image: url("img/banner-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: @white-primary;
+  }
 }

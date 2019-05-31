@@ -1,16 +1,47 @@
 nav {
+  font-family: 'Roboto' sans-serif;
   height: 100px;
   background-color: #f8df1f;
+  padding-left: 5%;
+  padding-top: 2.5%;
+}
+nav li {
+  padding-right: 2%;
+  font-size: 18px;
+}
+nav span {
+  color: #ee252f;
+  text-transform: uppercase;
 }
 h2 {
   text-transform: uppercase;
 }
 h2 span {
+  font-family: 'Roboto' sans-serif;
+  font-size: 30px;
   color: #ee252f;
+  font-weight: 500;
 }
 footer {
   background-color: #080801;
+  border-top: 8px solid #f8df1f;
 }
-header {
+button {
+  background-color: #f8df1f;
+  font-size: 18px;
+}
+.top,
+.bottom {
+  padding: 5% 0;
+}
+.bottom {
+  background-color: #f3f3f3;
+}
+body header {
   background-image: url("img/banner-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: #f3f3f3;
 }
